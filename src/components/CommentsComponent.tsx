@@ -16,7 +16,7 @@ const CommentsComponent = () => {
     const fetchData = async () => {
       const request = await fetch("https://dummyjson.com/comments");
       const data = await request.json();
-      setComment(data.CommentsType);
+      setComment(data.comments);
     };
     fetchData();
   }, []);

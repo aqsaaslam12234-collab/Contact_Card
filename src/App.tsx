@@ -1,6 +1,6 @@
 
 import './App.css'
-import CommentsComponent from './components/CommentsComponent'
+import CardsComponents from './components/CartsComponents'
 
 
 
@@ -14,7 +14,8 @@ function App() {
     {/* <ContactCard/> */}
     {/* <FetchQuotes /> */}
     {/* <UserComponents /> */}
-    <CommentsComponent />
+    {/* <CommentsComponent /> */}
+    <CardsComponents />
     </>
   )
 }
